@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css"; // Keep the existing CSS for reference, but we'll override with Tailwind
 
 const Navbar = () => {
