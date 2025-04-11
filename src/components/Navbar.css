@@ -1,0 +1,20 @@
+/* Navbar.css */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Keep this for consistency */
+}
+
+/* Optional: Override or enhance Tailwind styles */
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none; /* Handled by Tailwind's hidden class, but kept for fallback */
+  }
+  .nav-links.active {
+    display: block; /* Alternative if you prefer a custom class */
+  }
+}

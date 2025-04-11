@@ -1,0 +1,20 @@
+/* HeroSection.css */
+.hero-section {
+  padding-top: 4rem; /* 16px, adjustable based on navbar height */
+}
+
+.writing-vertical {
+  writing-mode: vertical-rl; /* Tailwind doesn't have this utility by default */
+}
+
+/* Optional: Custom shadow or additional styling */
+.hero-image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Media query for fallback or custom adjustments */
+@media (max-width: 767px) {
+  .hero-content {
+    flex-direction: column;
+  }
+}
