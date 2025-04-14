@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Navbarr from "./pages/Navbarr";
 import Letter from "./pages/Letter";
 import Business from "./pages/Business";
+import Customer from "./pages/Customer";
+import Blog from "./pages/Blog";
 function App() {
   return (
     <>
@@ -13,6 +15,9 @@ function App() {
         <ClientSection />
         <Letter />
         <Business />
+        <Customer />
+        <Blog />
+
         {/* <Navbar /> */}
         {/* <HeroSection />
         <AboutUs />
