@@ -1,21 +1,20 @@
 import "./App.css";
-import AboutUs from "./components/AboutUs";
-import ChefBeliefPage from "./components/ChefBeliefPage";
-import FindUsPage from "./components/FindUsPage";
-import HeroSection from "./components/HeroSection";
-import InstagramCard from "./components/InstagramCard";
-import LaurelsPage from "./components/LaurelsPage";
-import Navbar from "./components/Navbar";
-import NewsletterPage from "./components/NewsletterPage";
-import SpecialsPage from "./components/SpecialsPage";
-import TermsPage from "./components/TermsPage";
-
+import ClientSection from "./pages/ClientSection";
+import Home from "./pages/Home";
+import Navbarr from "./pages/Navbarr";
+import Letter from "./pages/Letter";
+import Business from "./pages/Business";
 function App() {
   return (
     <>
       <div className="App">
-        <Navbar />
-        <HeroSection />
+        <Navbarr />
+        <Home />
+        <ClientSection />
+        <Letter />
+        <Business />
+        {/* <Navbar /> */}
+        {/* <HeroSection />
         <AboutUs />
         <SpecialsPage />
         <ChefBeliefPage />
@@ -23,7 +22,7 @@ function App() {
         <InstagramCard />
         <FindUsPage />
         <NewsletterPage />
-        <TermsPage />
+        <TermsPage /> */}
       </div>{" "}
     </>
   );

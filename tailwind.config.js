@@ -12,6 +12,8 @@ export default {
         txt: "#FACC15", // White text
         gray: "#ccc", // Gray text
         background: "#000", // Black background
+        white: "#FFFFFF",
+        Green: "#16a34a",
       },
       fontFamily: {
         cormorant: ["Cormorant Upright", "serif"],
